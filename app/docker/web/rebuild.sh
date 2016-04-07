@@ -1,5 +1,5 @@
 #!/bin/bash
 
-./build-image.sh
 cyber-dojo down
+./build-image.sh
 cyber-dojo up

@@ -10,7 +10,7 @@
   ],
   "filename_extension" : ".js",
   "display_name": "Javascript, JSVerify+Mocha",
-  "unit_test_framework": "mocha",
+  "unit_test_framework": "mocha_jsverify",
   "image_name": "cyberdojofoundation/javascript_jsverify",
   "tab_size": 2
 }

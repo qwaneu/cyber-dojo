@@ -42,6 +42,11 @@ module OutputColour # mix-in
     return :green
   end
 
+  def self.parse_mocha_jsverify(output)
+    return :red if /Error: Failed after (\d+) tests and (\d+) shrinks/.match(output)
+    return self.parse_mocha(output)
+  end
+
   def self.parse_cpputest(output)
     return :red   if /Errors \((\d+) failures, (\d+) tests/.match(output)
     return :green if /OK \((\d+) tests, (\d+) ran/.match(output)
