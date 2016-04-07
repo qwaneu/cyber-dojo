@@ -1,0 +1,12 @@
+{
+  "visible_filenames": [
+    "test_Suite.hs",
+    "test_Head.hs",
+    "cyber-dojo.sh"
+  ],
+  "filename_extension" : ".hs",
+  "display_name": "Haskell, quickcheck",
+  "unit_test_framework": "hunit",
+  "image_name": "cyberdojofoundation/haskell_quickcheck",
+  "tab_size": 4
+}
