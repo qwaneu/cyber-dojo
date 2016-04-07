@@ -1,1 +1,1 @@
-runhaskell test_Suite.hs
+runhaskell TestSuite.hs
