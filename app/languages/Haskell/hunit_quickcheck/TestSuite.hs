@@ -2,8 +2,8 @@ module TestSuite where
 
 import Test.Hspec
 
-import HeadSpecs (headSpecs)
+import HeadSpec (headSpec)
 
 main :: IO ()
-main = hspec headSpecs 
+main = hspec headSpec 
 

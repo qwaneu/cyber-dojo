@@ -1,4 +1,4 @@
-module HeadSpec (HeadSpec) where
+module HeadSpec (headSpec) where
 
 import Test.Hspec
 import Test.QuickCheck

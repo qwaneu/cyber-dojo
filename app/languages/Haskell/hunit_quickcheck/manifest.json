@@ -1,7 +1,7 @@
 {
   "visible_filenames": [
-    "test_Suite.hs",
-    "test_Head.hs",
+    "TestSuite.hs",
+    "HeadSpec.hs",
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".hs",
