@@ -1,0 +1,1 @@
+runhaskell TestSuite.hs

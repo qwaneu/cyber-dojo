@@ -47,6 +47,13 @@ module OutputColour # mix-in
     return self.parse_mocha(output)
   end
 
+  def self.parse_hspec(output)
+    return :red if /Failures:/.match(output)
+    return :amber if /PENDING/.match(output)
+    return :green if /0 failures/.match(output)
+    return :red
+  end
+
   def self.parse_cpputest(output)
     return :red   if /Errors \((\d+) failures, (\d+) tests/.match(output)
     return :green if /OK \((\d+) tests, (\d+) ran/.match(output)
